@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "midi-melody-extraction"
+version = "0.1.0"
+description = ""
+authors = ["anselbrandt <ansel@anselbrandt.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.27.1"
+torch = "^2.1.1"
+miditoolkit = "^1.0.1"
+numpy = "^1.26.2"
+scipy = "^1.11.4"
+pyyaml = "^6.0.1"
+music21 = "^9.1.0"
+mir-eval = "^0.7"
+logger = "^1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
